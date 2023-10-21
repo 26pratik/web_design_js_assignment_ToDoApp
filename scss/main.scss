@@ -1,0 +1,154 @@
+// CSS for the entire page
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+//   CSS for thr header tag 
+  header {
+    text-align: center;
+    color: #5d2edd;
+    font-size: xx-large;
+    font: bold;
+    margin-top: 50px;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+//   CSS for the body 
+  body {
+    height: 100vh;
+    width: 90%;
+    background: linear-gradient(#68EACC, 50%, #e7f59a);
+  }
+  
+//   CSS for the search box 
+  .header {
+    margin-left: 450px;
+    max-width: 500px;
+    width: 100%;
+    background: #5bf370;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+  
+//   CSS to remove arrow from details tag 
+  details > summary {
+    list-style: none;
+  }
+  
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+ 
+//   CSS for the UL tag 
+  ul {
+    list-style-type: none;
+  }
+ 
+//   CSS for the LI tag inside the UL 
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+//   CSS for the odd numbered LI elements 
+  ul li:nth-child(odd) {
+    background: #410d0d17;
+  }
+  
+//   CSS for the plus button 
+  #show-btn {
+    border: hidden;
+    width: 50px;
+    margin-left: 37px;
+    background-color: lightgray;
+    height: 30px;
+  }
+  
+  .headerElements, .headerElements1 {
+    width: 200px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+  }
+  
+  .headerElements0 {
+    float: right;
+    padding-left: 50px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    height: 30px;
+  }
+  
+  .headerElements2 {
+    left: 70px;
+    position: relative;
+    
+  }
+ 
+//   CSS for the error P tag 
+  #error {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  //CSS for the button that shows the search box
+  .addBtn {
+    width: 100px;
+    height: 50px;
+    background-color: #075511;
+    border: none;
+    border-radius: 20px;
+    color: rgb(241, 195, 79);
+    font-weight: bold;
+    margin: 10px 0px 10px 640px;
+  }
+  
+  .todoList {
+  
+    margin-left: 400px;
+    max-width: 600px;
+  }
+  
+  //CSS for the button that marks an TO DO element as complete
+  .complete-btn {
+    float: right;
+    width: 25px;
+    height: 23px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color:rgb(241, 195, 79);
+  }
+  
+//   CSS for summary tag 
+  summary {
+    font-weight: bolder;
+  }
+  
+//   CSS for P tag 
+  p {
+    color: gray;
+  }
+  
+  

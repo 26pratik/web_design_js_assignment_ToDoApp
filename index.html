@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List Application</title>
+    <script src="https://kit.fontawesome.com/a36d9d152a.js" crossorigin="anonymous"></script>
+    <script src="js/app.js" defer ></script>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+    <header>To Do List</header>
+    <button class="addBtn" onclick="showElements();">Add Button</button>
+    <div class="wrapper" id="wrapper">
+       
+        <div id="myDIV" class="header">
+            <input type="text" id="idTitle" placeholder="Title..." class="headerElements"> 
+            <input type="text" id="idDescription" placeholder="Description..." class="headerElements0">
+            <br>
+<br>
+            <!-- <span onclick="newElement()" class="addBtn">Add</span> -->
+            <input type="datetime-local" id="datetime1" class="headerElements1">
+
+            <button id="show-btn" class="headerElements2"><i class="fas fa-plus plus"></i></button>
+            
+            <p id="error"></p>
+        </div>
+    </div>
+    <div id="liDiv" class="liDiv">
+        <ul class="todoList" id="ulList">
+        <!-- <li>Apples <span><i class="fas fa-trash"></i></span></li>
+        <li>Apples <span><i class="fas fa-trash"></i></span></li>
+        <li>Apples <span><i class="fas fa-trash"></i></span></li>
+        <li>Apples <span><i class="fas fa-trash"></i></span></li> -->
+        </ul>
+    </div>
+</body>
+</html>
